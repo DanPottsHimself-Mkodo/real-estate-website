@@ -19,10 +19,5 @@
       "command": "npm run lint"
     }
   ],
-  "workspace": {
-    "name": "Real Estate Website",
-    "description": "A modern real estate website built with Next.js",
-    "root": "."
-  },
   "start": "npm run dev"
 }
