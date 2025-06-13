@@ -1,0 +1,28 @@
+{
+  "snapshot": "real-estate-website",
+  "install": "npm install",
+  "terminals": [
+    {
+      "name": "Development Server",
+      "command": "npm run dev"
+    },
+    {
+      "name": "Build Project",
+      "command": "npm run build"
+    },
+    {
+      "name": "Run Tests",
+      "command": "npm test"
+    },
+    {
+      "name": "Lint Code",
+      "command": "npm run lint"
+    }
+  ],
+  "workspace": {
+    "name": "Real Estate Website",
+    "description": "A modern real estate website built with Next.js",
+    "root": "."
+  },
+  "start": "npm run dev"
+}
