@@ -1,23 +1,10 @@
 {
-  "snapshot": "real-estate-website",
+  "snapshot": "POPULATED_FROM_SETTINGS",
   "install": "npm install",
   "terminals": [
     {
-      "name": "Development Server",
+      "name": "Run Next.js",
       "command": "npm run dev"
-    },
-    {
-      "name": "Build Project",
-      "command": "npm run build"
-    },
-    {
-      "name": "Run Tests",
-      "command": "npm test"
-    },
-    {
-      "name": "Lint Code",
-      "command": "npm run lint"
     }
-  ],
-  "start": "npm run dev"
+  ]
 }
