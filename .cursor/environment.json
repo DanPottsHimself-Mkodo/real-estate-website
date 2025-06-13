@@ -1,10 +1,11 @@
 {
-    "snapshot": "real-estate-website",
-    "install": "npm install",
-    "terminals": [
-      {
-        "name": "Development Server",
-        "command": "npm run dev"
-      }
-    ]
-  }
+  "snapshot": "real-estate-website",
+  "install": "npm install",
+  "terminals": [
+    {
+      "name": "Development Server",
+      "command": "npm run dev"
+    }
+  ],
+  "start": "npm run dev"
+}
