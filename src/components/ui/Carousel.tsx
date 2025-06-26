@@ -56,13 +56,13 @@ export const Carousel: React.FC<CarouselProps> = ({
     }
   }, [currentIndex, goToSlide, isTransitioning]);
 
-  const goToNext = useCallback(() => {
+  const goToNext = () => {
     if (!isTransitioning) {
       setIsTransitioning(true);
       goToSlide(currentIndex + 1);
       setTimeout(() => setIsTransitioning(false), 300);
     }
-  }, [currentIndex, goToSlide, isTransitioning]);
+  };
 
   const goToSlideByIndex = useCallback((index: number) => {
     if (!isTransitioning && index !== currentIndex) {
