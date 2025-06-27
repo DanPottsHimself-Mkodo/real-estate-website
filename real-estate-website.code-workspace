@@ -1,9 +1,4 @@
 {
-  "folders": [
-    {
-      "path": "real-estate-website"
-    }
-  ],
   "settings": {
     "typescript.preferences.includePackageJsonAutoImports": "on",
     "editor.formatOnSave": true,
@@ -22,5 +17,10 @@
       "esbenp.prettier-vscode",
       "ms-vscode.vscode-typescript-next"
     ]
-  }
+  },
+  "folders": [
+    {
+      "path": "."
+    }
+  ]
 }
